@@ -1,0 +1,279 @@
+body {
+    background-color: black;
+}
+
+.navbar {
+    background-color: none;
+    margin-top: 1%;
+}
+
+.navbar-brand {
+    padding-left: 65px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 210% !important;
+    color: antiquewhite !important;
+}
+
+/*
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Marcellus', serif;
+font-family: 'Roboto Slab', serif;
+*/
+.navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-link {
+    color: white;
+    font-size: 200% !important;
+    color: antiquewhite !important;
+    position: sticky !important;
+    transition: 0.2s !important;
+    padding: 0 2%;
+}
+
+.nav-link:hover {
+    transition: 0.2s !important;
+    transform: translateY(-6%);
+    color: rgb(190, 94, 30) !important;
+    font-weight: bold;
+}
+
+.login-btn {
+    justify-self: right;
+    transform: translateX(-40%);
+    border-radius: 50px;
+    padding: 0.8% 3%;
+    font-weight: bolder;
+    font-family: 'Marcellus', serif;
+    background-color: rgb(197, 127, 81);
+    border: 0px;
+    color: antiquewhite;
+    transition: 0.4s;
+    margin-top: 0.5%;
+}
+
+.login-btn:hover {
+    transition: 0.4s ease;
+    color: rgb(190, 94, 30);
+    box-shadow: 0px 0px 7px rgb(0, 0, 0);
+    background-color: antiquewhite;
+    transform: translateX(-40%) translateY(-3%);
+}
+
+
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    filter: brightness(40%);
+}
+
+img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    filter: brightness(40%);
+    display: none;
+}
+
+
+.container1 {
+    display: flex;
+    padding: 0% 5%;
+}
+
+
+
+.container2 {
+    padding: 15% 4%;
+}
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.container2 h1 {
+    font-size: 400%;
+    text-align: left;
+    font-family: 'Roboto Slab', serif;
+    color: antiquewhite;
+    overflow: hidden;
+    white-space: nowrap;
+
+    animation: fade 8s;
+    border-right: 2px solid transparent;
+    padding-right: 5px;
+    display: inline-block;
+}
+
+
+.container2 h4 {
+    margin-top: 4%;
+    text-align: justify;
+    font-family: 'Josefin Sans', sans-serif;
+    color: antiquewhite;
+}
+
+.container2 p {
+    float: right;
+    margin-top: 4%;
+    font-family: 'Josefin Sans', sans-serif;
+    color: antiquewhite;
+}
+
+
+.container3 {
+    margin: 7% 2% 0 18%;
+    box-shadow: 0px 0px 6px rgb(155, 155, 155);
+    padding: 5% 10%;
+    justify-content: center;
+    text-align: center;
+    width: 78%;
+    height: 95%;
+    transform: translateX(20%);
+    backdrop-filter: blur(5px);
+}
+
+.signup h3 {
+    font-size: 200%;
+    font-family: 'Marcellus', serif;
+    color: antiquewhite;
+    font-weight: bold;
+}
+
+.signup p {
+    font-family: 'Marcellus', serif;
+    text-align: center;
+    padding-top: 5%;
+    font-size: larger;
+    color: antiquewhite;
+}
+
+
+.signup-info {
+    justify-content: left;
+    text-align: left;
+    padding-top: 4%;
+    color: antiquewhite;
+}
+
+.signup-info h5 {
+    font-size: larger;
+}
+
+.signup input {
+    border-radius: 5px;
+    border: 0px;
+    width: 100%;
+    height: 7%;
+    padding-left: 5px;
+}
+
+.signup input:hover {
+    box-shadow: 0px 0px 5px rgb(148, 148, 148);
+}
+
+.signup-btn {
+    margin: 5% 0;
+    padding: 3% 8%;
+    border-radius: 50px !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: rgb(197, 127, 81);
+    border: 0px;
+    color: antiquewhite;
+    transition: 0.4s;
+}
+
+.signup-btn:hover {
+    transition: 0.4s ease;
+    color: rgb(190, 94, 30);
+    box-shadow: 0px 0px 7px rgb(0, 0, 0);
+    background-color: antiquewhite;
+    transform: translateY(-5%);
+}
+
+.forhr {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.forhr hr {
+    width: 40%;
+    border: 1px solid #adadad;
+}
+
+.donate-btn {
+    padding: 4% 12%;
+    border-radius: 50px;
+    font-size: x-large;
+    margin-top: 4% !important;
+    font-family: 'Marcellus', serif;
+    font-weight: bolder;
+    border: 0px;
+    color: rgb(190, 94, 30);
+    transition: 0.4s;
+}
+
+.donate-btn:hover {
+    background-color: rgb(190, 94, 30);
+    color: antiquewhite;
+    transition: 0.4s;
+    box-shadow: 0px 0px 7px black;
+    transform: translateY(-5%);
+}
+
+
+@media screen and (min-width:100px) and (max-width:991px) {
+
+    .navbar-brand {
+        padding-left: 5%;
+    }
+
+    .login-btn{
+        display: inline-block;
+    }
+
+    .navbar-toggler{
+        background-color: white !important;
+        margin-right: 3%;
+    }
+
+    video {
+        display: none;
+    }
+
+    img{
+        display: block;
+    }
+
+    .a {
+        display: block;
+    }
+
+    .container3 {
+        height: auto;
+        margin-left: -4%;
+    }
+}
