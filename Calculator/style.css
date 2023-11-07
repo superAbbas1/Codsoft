@@ -1,0 +1,121 @@
+body{
+    background: linear-gradient(to left, #A1CCD1, #F4F2DE, #E9B384, #7C9D96)
+}
+
+.row{
+    max-width: 100%;
+}
+
+.cont1{
+    padding: 8% 0 0 4% !important;
+}
+
+.cont1 h1{
+    font-size: 280%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.cont1 p , ul{
+    font-size: large;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: white;
+}
+
+.cont2{
+    padding: 10% 15% 0 0 !important;
+}
+
+.cal {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: auto;
+    margin: 0;
+    padding: 10% 1% 10% 1%; 
+    align-items: center;
+    float: right;
+    transition: 0.5s;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 3px rgb(73, 73, 73);
+}
+
+.cal:hover{
+    transform: translateY(-3%);
+    transition: 0.5s;
+    box-shadow: 0 0 20px rgb(73, 73, 73);
+}
+
+input{
+    height: 40px;
+    width: 90%;
+    margin-top: 4%;
+    border-radius: 25px;
+    padding: 10px;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.DO-block {
+    display: flex;
+    padding : 15% 0 0 0;
+    justify-content: center;
+    font-family:Verdana, Tahoma, sans-serif;
+}
+
+.digits {
+    display: grid;
+    padding-right: 4%;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows:50px 50px 50px 50px;
+    flex:60%;
+    gap: 3px;
+}
+
+.operators {
+    gap : 3px;
+    padding-top: 9%; 
+    flex:40%;
+    display: grid;
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 50px 50px 50px;
+}
+
+
+button{
+    font-size: x-large;
+    margin: 2%;
+    border: 0 rgb(65, 65, 65);
+    text-align: center;
+    border-radius: 50px;
+    background-color: transparent;
+    transition: 0.1s ease-in-out;
+}
+
+button:hover{
+    cursor:pointer;
+    color: antiquewhite;
+    background-color: rgb(68, 68, 68);
+    transition: 0.1s ease-in-out;
+}
+
+button:active{
+    transform: translateY(2%);
+    box-shadow: 0 0 3px rgb(95, 95, 95);
+}
+
+
+@media screen and (max-width: 1100px){
+    body{
+        background: linear-gradient(to right,#E9B384, #7C9D96);
+    }
+    
+    .cont1 h1{
+        text-align: center;
+    }
+
+    .cal{
+        margin-right: 90px;
+    }
+}

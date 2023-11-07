@@ -1,0 +1,88 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+
+    <!--***CSS***-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--***Bootstrap***-->
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+
+    <!--**transitions***-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/3.0.0-beta.6/aos.css" />
+
+</head>
+
+<body>
+
+    <div class="row">
+
+        <!--First container-->
+        <div class="col-lg-6 col-md-6 col-sm-12 cont1" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+            <h1>A Basic Calculator !</h1>
+            <br>
+            <p>I'm excited to introduce you to my Homemade Calculator!
+                I built this Calculator using</p>
+            <ul>
+                <strong>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </strong>
+            </ul>
+            <p>
+                and I'm thrilled to share it with you.
+                It's a small project that packs a punch in terms of Functionality and Design.
+            </p>
+        </div>
+        <!--Second container-->
+        <div class="col-lg-6 col-md-6 col-sm-12 cont2" data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
+            <div class="cal">
+
+                <input type="text">
+
+                <div class="DO-block">
+                    <div class="digits">
+                        <button>7</button>
+                        <button>8</button>
+                        <button>9</button>
+                        <button>4</button>
+                        <button>5</button>
+                        <button>6</button>
+                        <button>1</button>
+                        <button>2</button>
+                        <button>3</button>
+                        <button>00</button>
+                        <button>0</button>
+                        <button>000</button>
+                    </div>
+
+                    <div class="operators">
+                        <button>/</button>
+                        <button>*</button>
+                        <button>-</button>
+                        <button>+</button>
+                        <button>=</button>
+                        <button>C</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--My JS file-->
+
+    <script src="script.js"></script>
+
+    <!--for transitions-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/3.0.0-beta.6/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
